@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "GraphQL tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaspk06/graphql-tutorial/issues"
+  },
+  "homepage": "https://github.com/jaspk06/graphql-tutorial#readme",
+  "dependencies": {
+    "eslint": "^7.9.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  }
+}
